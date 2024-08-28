@@ -58,6 +58,22 @@ searchBtn.addEventListener("click", () => {
     }
 })
 
+document.addEventListener("keypress", (event) =>{
+    let keypressed = event.key
+    // below code is same as click EventListener
+    if (keypressed == "Enter") {
+        let movieName = searchIp.value;   
+        if (movieName != "") {    
+            getdata(movieName);   
+    
+            searchIp.value = "";  
+        }
+        else {
+            document.querySelector(".body").innerHTML = "<h1>Write a movie name in Search Box</h1>";
+        }
+    }
+    // same click EventListener ended.
+})
 //---------------------------------------------below code is for Homepage movie sections
 var numberOfDrumButtons = document.querySelectorAll(".c").length;
 
