@@ -68,13 +68,19 @@
         justify-content: center;
     }
     .title-img{
-        height: 10vw;
+        height: 12vw;
     }
     .ip{
         height: 18px;
-        font-size: 13px;
+        font-size: 14px;
     }
     .superhero h1{
         font-size: 1.7rem;
+    }
+    .btn{
+        display: none;
+    }
+    .heading{
+        height: 13vh;
     }
   }

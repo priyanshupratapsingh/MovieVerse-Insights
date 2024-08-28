@@ -20,9 +20,8 @@ const getdata = async (movie) => {
             </div>
             <div class="dis">
                 <div class="body-head">
-                <h1>${jsonData.Title}</h1>
+                    <h1>${jsonData.Title}</h1>
                 </div>
-                <br>
                 <p>Released: <span>${jsonData.Released}</span></p>
                 <p>Imdb Rating: <span>${jsonData.Ratings[0].Value}</span></p>
                 <p>Runtime: <span>${jsonData.Runtime}</span></p>
