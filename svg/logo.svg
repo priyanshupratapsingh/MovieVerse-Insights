@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" style="max-width: 100%; height: auto;">
+  <!-- Background rectangle -->
+  <rect width="300" height="80" fill="#1e1e2a" rx="15" ry="15"/>
+
+  <!-- Movie reel circle -->
+  <circle cx="50" cy="40" r="20" fill="#9B59B6"/> <!-- Vibrant Purple -->
+  <circle cx="50" cy="40" r="10" fill="#1e1e2a"/>
+
+  <!-- Text - MovieVerse Insights -->
+  <text x="80" y="45" font-family="'Trebuchet MS', sans-serif" font-size="30" font-weight="bold" fill="#ffffff">MovieVerse</text>
+  <text x="80" y="65" font-family="'Trebuchet MS', sans-serif" font-size="15" fill="#9B59B6">Insights</text>
+</svg>
