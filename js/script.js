@@ -87,7 +87,7 @@ document.querySelector(".body-img").addEventListener("click", async () => {
     document.querySelector(".body").innerHTML = "";     //Clearing the body tag (its history)
     desc.innerHTML = `
         <div class="img">
-            <img src="../images/fantastic-four.webp" alt="img.jpg">
+            <img src="${jsonData.Poster}" alt="img.jpg">
         </div>
         <div class="dis">
             <h2>${name1}</h2><br>
